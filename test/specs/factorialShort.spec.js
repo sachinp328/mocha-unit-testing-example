@@ -36,6 +36,6 @@ describe('factorialShort', function() {
     });
 
     it('should return 1 when provided 1', function() {
-        expect(factorial.factorialShort(1)).to.be.equal(1);
+        expect(factorial.factorialShort(1)).to.be.equal(2);
     });
 });
